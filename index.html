@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube - CSS Grid</title>
+    <script src="https://kit.fontawesome.com/f2e1cd452b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./static/css/style.css">
+</head>
+<body>
+
+    <div class="container active" id="container">
+        <header class="header">
+            <div class="header__logos">
+                <button id="menu-btn" class="logos__menu-btn btn">
+                    <i class="fas fa-bars">\\\</i>
+                </button>
+                <a href="http://#" class="logoref">
+                    <!-- <i class="fab fa-youtube"></i> -->
+                    <span class="youtube-logo-container">
+                        <span class="youtube-logo"></span>
+                    </span>
+                    <span>YouTube</span>
+                </a>
+            </div>
+
+            <div class="header__search-bar">
+                <input type="search" placeholder="Search" class="search"/>
+                <button type="submit" class="search-btn btn">
+                    <i class="fas fa-search">O-</i>
+                </button>
+            </div>
+
+            <div class="header__options">
+                <button class="btn">
+                    <i class="fas fa-upload">^</i>
+                </button>
+
+                <button class="btn">
+                    <i class="fas fa-th">[]</i>
+                </button>
+
+                <button class="btn">
+                    <i class="fas fa-bell">/\</i>
+                </button>
+                <a href="http://#" class="avatar">
+                    <img src="./static/img/logo_black.png" alt="Ruben Padilla" class="avatar-img"/>
+                </a>
+            </div>
+        </header>
+
+        <nav class="sidebar">
+            <a href="http://" class="active"> <span class='folder-icon'></span> menu principal </a>
+            <a href="http://"> <span class='folder-icon'></span> canales </a>
+            <a href="http://"> <span class='folder-icon'></span> videos </a>
+            <hr/>
+            <a href="http://"> <span class='folder-icon'></span> html,css </a>
+            <a href="http://"> <span class='folder-icon'></span> python </a>
+            <a href="http://"> <span class='folder-icon'></span> javasvript </a>
+            <hr/>
+            <a href="http://"> <span class='folder-icon'></span> react </a>
+            <a href="http://"> <span class='folder-icon'></span> flask </a>
+            <a href="http://"> <span class='folder-icon'></span> django </a>
+        </nav>
+
+        <main class="main">
+            <h3 class="titulo">videos recomendados</h3>
+            <div class="grid-videos">
+                <a href="#" class="video"></a>
+                <a href="#" class="video"></a>
+                <a href="#" class="video"></a>
+                <a href="#" class="video"></a>
+                <a href="#" class="video"></a>
+                <a href="#" class="video"></a>
+                <a href="#" class="video"></a>
+                <a href="#" class="video"></a>
+                <a href="#" class="video"></a>
+                <a href="#" class="video"></a>
+                <a href="#" class="video"></a>
+                <a href="#" class="video"></a>
+            </div>
+        </main>
+    </div>
+
+
+    <script src="./static/js/main.js"></script>
+</body>
+</html>
